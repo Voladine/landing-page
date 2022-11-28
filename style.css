@@ -134,6 +134,7 @@ button {
 
 .forget {
     font-size: 36px;
+    margin: 0;
 }
 
 .sign-up-details {
@@ -158,6 +159,7 @@ button {
 .signbutton {
     display: flex;
     align-items: center;
+    padding-left: 50px;
 }
 
 .footer {
