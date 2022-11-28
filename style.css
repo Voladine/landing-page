@@ -65,3 +65,32 @@ button {
     border-radius: 10px;
     border-color: #3882F6;
 }
+
+.info {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px;
+}
+
+.info-images {
+    display: flex;
+
+}
+
+.pics {
+    display: flex;
+    justify-content: space-around;
+}
+
+.champtext {
+    text-align: center;
+}
+
+.champs {
+    border: 5px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+}
