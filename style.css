@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
+    margin: 0;
 }
 
 .header {
@@ -26,6 +27,7 @@ body {
     display: flex;
     margin: 16px 100px;
     justify-content: space-between;
+    padding-top: 14px;
 }
 
 a {
@@ -82,12 +84,14 @@ button {
 .pics {
     display: flex;
     justify-content: space-around;
+    padding-bottom: 50px;
 }
 
 .champtext {
     text-align: center;
-    color: #505051;
+    color: #1f2937;
     font-size: 16px;
+    padding-top: 5px;
 }
 
 .champs img {
@@ -95,4 +99,72 @@ button {
     border-style: solid;
     border-color: #3882F6;
     border-radius: 10px;
+    padding: 5px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 70px 100px;
+
+}
+
+.quotation {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.sig {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.sign-up {
+    display: flex;
+    background-color: #3882F6;
+    color: #FFFFFF;
+    margin: 70px 100px;
+    border-radius: 10px;
+    padding: 30px 60px;
+    justify-content: center;
+}
+
+.forget {
+    font-size: 36px;
+}
+
+.sign-up-details {
+    font-size: 20px;
+}
+
+.second {
+    background: #3882F6;
+    padding: 8px 24px;
+    border-radius: 10px;
+    border-color: #FFFFFF;
+    width: 100px;
+    height: 40px;
+    
+}
+
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.signbutton {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 30px;
 }
